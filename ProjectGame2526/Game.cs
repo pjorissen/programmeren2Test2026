@@ -53,7 +53,7 @@ public class Game
         previousGameState = GameState.NoGameState;
 
 
-        player = new Player(playerPosX, playerPosY, ConsoleColor.Red, '@');
+        player = new Player(playerPosX, playerPosY, ConsoleColor.Blue, '@');
         level = new Level(width, height);
         enemy = new Enemy(2,2, level);
 
