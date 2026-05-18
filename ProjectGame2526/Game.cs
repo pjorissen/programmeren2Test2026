@@ -17,7 +17,7 @@ public enum GameState
 public class Game
 {
     protected int width, height;
-    protected int playerPosX = 5, playerPosY = 5;
+    protected int playerPosX = 10, playerPosY = 10;
     protected const int enemyDamage = 50;
 
     protected GameState currentGameState;
